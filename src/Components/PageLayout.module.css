@@ -1,0 +1,30 @@
+.pageContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+    width: 100%;
+}
+
+
+.leftColumn {
+    display: flex;
+    flex-direction: column;
+    width: 59%;
+}
+
+.rightColumn {
+    position: relative;
+    width: 31%;
+}
+
+.stickyCard {
+    position: sticky;
+    width: 100%;
+    top: 100px;
+    /* Distance from top when sticky */
+}
+
+.priceCard{
+    width: 100%;
+}
